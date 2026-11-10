@@ -1,0 +1,15 @@
+# Dados pessoais de estudo e exportações do painel: nunca versionar
+dados/
+export/
+*.zip
+inventario-vps.txt
+
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
